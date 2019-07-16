@@ -1,8 +1,3 @@
-backend:
-  name: github
-  repo: capriosa/vuepress-deploy
-  branch: master
-  
 module.exports = {
     title: "VuePress Deploy",
     locales: {
@@ -42,6 +37,10 @@ module.exports = {
                 link: '/docs/netlifycms-configuration.html',
             }
 
+              backend:
+  name: github
+  repo: capriosa/vuepress-deploy
+  branch: master
         ]
 
     }
