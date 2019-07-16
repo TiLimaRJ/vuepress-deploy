@@ -1,3 +1,8 @@
+backend:
+  name: github
+  repo: capriosa/vuepress-deploy
+  branch: master
+  
 module.exports = {
     title: "VuePress Deploy",
     locales: {
